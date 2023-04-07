@@ -6,8 +6,7 @@
     "dev": "concurrently \"next dev\" \"tailwindcss --input ./src/styles/globals.css --output ./src/styles/output.css --watch\"",
     "build": "tailwindcss ./src/styles/globals.css --output ./src/styles/output.css && next build",
     "start": "next start",
-    "lint": "next lint",
-    "vercel-build": "npx prisma migrate deploy"
+    "lint": "next lint"
   },
   "dependencies": {
     "@prisma/client": "^4.12.0",
